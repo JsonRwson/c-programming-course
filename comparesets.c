@@ -68,11 +68,7 @@ int main()
     char set2[arrlength] = {'f','b','c','e','d','a'};
 
     if(setEqual(set1, set2, arrlength, arrlength))
-    {
         printf("equal sets!");
-    }
     else
-    {
         printf("unequal sets!");
-    }
 }
